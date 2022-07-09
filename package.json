@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@mui/system": "^5.8.5",
+    "bootstrap": "^5.1.3",
+    "react-bootstrap": "^2.4.0",
+    "react-loader-spinner": "^5.1.5"
+  }
+}
