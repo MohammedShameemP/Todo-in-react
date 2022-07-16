@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    background-color: #056679;
+    color: white;
+}
+.todo-container{
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+}
+.input-section{
+    margin-top: 5vh;
+background-color: #055565;
+padding: 18px;
+border-radius: 10px;
+}
+.input-section input{
+    border-radius: 5px;
+    border: 1px solid #106879;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color:#055565  ;
+    outline: none;
+    /* color: #08869e; */
+}
+ul{
+    text-align: left;
+    padding: 0;
+   
+}
+ul li{
+    margin: 10px;
+    background-color: #055565;
+    list-style: none;
+    padding: 0;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    /* color: #08869e ; */
+    box-shadow: 0 4px 6px #00000066; 
+    overflow-wrap: break-word;
+    display: inline;
+    margin-right: 10px
+    
+} 
+h1{
+    margin: 0;
+    margin-bottom: 15px;
+    /* color: #75a4ad ; */
+
+}
+input::placeholder{
+    /* color: #08869e; */
+    color: white;
+} 
+ul li i{
+    cursor: pointer;
+}
+  input[type=checkbox] {
+    cursor: pointer;
+}
+span{
+    background-color: transparent;
+    cursor: pointer;
+}
+#doneTasks{
+    margin-top: auto !important;
+    background-color: #055565;
+    /* color: #75a4ad; */
+    border-radius: 5px;
+    border-style: none;
+}
+h5{
+    /* color: #75a4ad ; */
+}
+#activeTasks{
+    /* margin-left: 20%; */
+}
+#NoTasks{
+    margin-top: 20px;
+    text-align:center ;
+    height: 20vh;
+}
